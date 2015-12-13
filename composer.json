@@ -1,0 +1,33 @@
+{
+    "name": "markbratanov/sennit-theme",
+    "type": "theme",
+    "description": "Foward faceing theme for GoSennit users, utilizes HTML 5 standards and responsive design.",
+    "keywords": [
+        "theme",
+        "sennit theme",
+        "theme"
+    ],
+    "homepage": "http://gosennit.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Bratanov",
+            "email": "markbratanov@gmail.com",
+            "homepage": "http://markbratanov.com/",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "help@gosennit.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Markbratanov\\SennitTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-1.0/master": "1.0.x-dev"
+        }
+    }
+}
